@@ -7,9 +7,11 @@ const POSTS = [
     date: "Jul 2026",
     desc: "Building an on-device story-recap feature with Apple's Foundation Models — map-reduce, a 4096-token window, and knowing when to stop tweaking the prompt.",
     content: `
-      <p>I recently released a book reading and tracking app called
-      <strong>Albert</strong> that lets you track your reading <em>while</em>
-      you're reading — whether it's e-books or physical books. The goal was to
+      <p>I recently released a book reading and tracking app called <a
+      href="https://gajddo00.github.io/albert-public/" target="_blank"
+      rel="noopener"><code>Albert</code></a> that lets you track your reading
+      <em>while</em> you're reading — whether it's e-books or physical books. The
+      goal was to
       read more, and more consistently. I often leave books unfinished and come
       back to them after a while, and by then I've usually forgotten what
       happened, so I thought a story recap feature would be a good idea.</p>

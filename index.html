@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my little corner of the web</title>
+  <meta name="description" content="Dominika Gajdova's little corner of the web — notes on iOS, Kotlin Multiplatform, and the things I build." />
+  <meta name="theme-color" content="#e5e3ec" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Dominika Gajdova — my little corner of the web" />
+  <meta property="og:description" content="Notes on iOS, Kotlin Multiplatform, and the things I build. Sometimes I feel like writing something, so here it goes." />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="icon"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='14' font-size='14'%3E%F0%9F%8C%B8%3C/text%3E%3C/svg%3E"
+  />
+</head>
+<body>
+  <main class="desktop">
+    <section class="window window--about" aria-labelledby="about-title">
+      <div class="window__bar window__bar--about">
+        <div class="window__controls" aria-hidden="true">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--yellow"></span>
+          <span class="dot dot--green"></span>
+        </div>
+        <span class="window__title" id="about-title">about_me.txt</span>
+      </div>
+      <div class="window__body about">
+        <div class="about__avatar"><img src="avatar.png" alt="Dominika's Memoji" /></div>
+        <div class="about__info">
+          <h1 class="about__name">Dominika Gajdova</h1>
+          <p class="about__tagline">iOS engineer by day and at night I'm sleeping</p>
+          <p class="about__bio">
+            Hi! I'm a software engineer aiming to create great experiences for the
+            people out there in the world. Professionally I've been mainly focusing
+            on iOS development and Kotlin Multiplatform but hey I worked with and
+            love all kinds of technology. Sometimes I make my own apps. Outside of
+            work I'm probably working on some music or biking somewhere I have to
+            check maps every ten minutes.
+          </p>
+          <ul class="about__links">
+            <li><a href="mailto:dominika.gajdo@gmail.com" class="pill">📮 email</a></li>
+            <li><a href="https://github.com/gajddo00" class="pill" target="_blank" rel="noopener">🐙 github</a></li>
+            <li><a href="https://www.linkedin.com/in/dominika-gajdov%C3%A1-10586b1aa/" class="pill" target="_blank" rel="noopener">💼 linkedin</a></li>
+            <li><a href="https://gajddo00.github.io/albert-public/" class="pill" target="_blank" rel="noopener"><img src="glasses.svg" alt="" class="pill__icon" /> albert</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="posts" aria-labelledby="posts-heading">
+      <h2 class="posts__heading" id="posts-heading">📁 my posts</h2>
+      <p class="posts__subtitle">
+        sometimes I feel like writing something so here it goes
+      </p>
+
+      <ul class="posts__list" id="posts-list"></ul>
+    </section>
+
+    <footer class="desktop__footer">
+      <p>made with <span class="heart-egg" tabindex="0" aria-label="made with love"><span class="heart-egg__icon">🩷</span><span class="heart-egg__tip">well with ai but still with love</span></span> &middot; <span id="year"></span></p>
+    </footer>
+  </main>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <template id="post-window-template">
+    <section class="window window--post" role="dialog" aria-modal="true" tabindex="-1">
+      <div class="window__bar" data-drag-handle>
+        <div class="window__controls">
+          <button class="dot dot--red" data-close aria-label="Close window"></button>
+          <span class="dot dot--yellow" aria-hidden="true"></span>
+          <span class="dot dot--green" aria-hidden="true"></span>
+        </div>
+        <span class="window__title" data-title></span>
+        <button class="window__copy" data-copy type="button" aria-label="Copy link to this post">
+          🔗 <span data-copy-label>copy link</span>
+        </button>
+      </div>
+      <div class="window__body post">
+        <p class="post__meta" data-meta></p>
+        <h2 class="post__title" data-post-title></h2>
+        <div class="post__content" data-content></div>
+      </div>
+    </section>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>

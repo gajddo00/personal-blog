@@ -1,0 +1,25 @@
+<svg viewBox="46 296 932 432" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1722_347" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="72" y="322" width="388" height="380">
+<ellipse cx="265.976" cy="512.08" rx="193.209" ry="189.271" fill="black"/>
+</mask>
+<g mask="url(#mask0_1722_347)">
+<rect x="9.32422" y="382.698" width="524.836" height="88.1381" fill="#FFCA3A"/>
+<rect x="9.32422" y="469.705" width="524.836" height="67.7986" fill="#8AC926"/>
+<rect x="9.32422" y="537.503" width="524.836" height="62.1487" fill="#1982C4"/>
+<rect x="9.32422" y="599.653" width="524.836" height="135.597" fill="#6A4C93"/>
+<rect x="9.32422" y="294.56" width="524.836" height="118.648" fill="#FF595E"/>
+</g>
+<path d="M265.977 333.658C367.077 333.658 448.452 413.859 448.452 512.079C448.452 610.3 367.077 690.5 265.977 690.5C164.876 690.5 83.5 610.3 83.5 512.079C83.5 413.859 164.876 333.658 265.977 333.658Z" stroke="black" stroke-width="33"/>
+<mask id="mask1_1722_347" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="564" y="322" width="387" height="380">
+<ellipse cx="757.74" cy="511.921" rx="193.209" ry="189.271" fill="black"/>
+</mask>
+<g mask="url(#mask1_1722_347)">
+<rect x="501.088" y="382.54" width="524.836" height="88.1381" fill="#FFCA3A"/>
+<rect x="501.088" y="469.547" width="524.836" height="67.7986" fill="#8AC926"/>
+<rect x="501.088" y="537.345" width="524.836" height="62.1487" fill="#1982C4"/>
+<rect x="501.088" y="599.495" width="524.836" height="135.597" fill="#6A4C93"/>
+<rect x="501.088" y="294.402" width="524.836" height="118.648" fill="#FF595E"/>
+</g>
+<path d="M757.74 333.5C858.841 333.5 940.216 413.7 940.216 511.921C940.216 610.141 858.841 690.342 757.74 690.342C656.639 690.342 575.264 610.141 575.264 511.921C575.264 413.7 656.639 333.5 757.74 333.5Z" stroke="black" stroke-width="33"/>
+<path d="M450.764 517C470.097 498.134 521.164 471.723 570.764 517" stroke="black" stroke-width="30"/>
+</svg>
